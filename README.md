@@ -25,3 +25,6 @@ This is a hello world starting point for using golang with an arduino
 * over time operator may need to update the "platforms" that platformio supports
   * one use case is if an old platformio installation was using python2 code
   * fix with `platformio platform update`
+
+### gobot.io
+* `go get -d -u gobot.io/x/gobot/...`
