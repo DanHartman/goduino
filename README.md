@@ -1,5 +1,10 @@
-<img width="200" src="https://golang.org/lib/godoc/images/go-logo-blue.svg" alt="Go Language icon">
-<img width="200" src="https://library.kissclipart.com/20181207/ejq/kissclipart-arduino-logo-png-clipart-arduino-starter-kit-k0000-71cedd3a2fcbfa0f.jpg" alt="Arduino icon">
+<style>
+  .projImg {
+      display: inline;
+  }
+</style>
+<img class="projImg" width="200" src="https://golang.org/lib/godoc/images/go-logo-blue.svg" alt="Go Language icon">
+<img class="projImg" width="200" src="https://www.vernier.com/wp-content/uploads/2020/05/Arduino-Loop-logo.png" alt="Arduino icon">
 # Goduino
 This is a hello world starting point for using golang with an arduino
 
