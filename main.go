@@ -1,16 +1,16 @@
 package main
 
 import (
-	"time"
-    "os"
-    "log"
 	"gobot.io/x/gobot"
 	"gobot.io/x/gobot/drivers/gpio"
 	"gobot.io/x/gobot/platforms/firmata"
+	"log"
+	"os"
+	"time"
 )
 
 func main() {
-    // environment variable assigns port for app to listen on
+	// environment variable assigns port for app to listen on
 	port := os.Getenv("DEV_PORT")
 	if port == "" {
 		log.Fatal("Env Var DEV_PORT must be set")
