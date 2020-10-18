@@ -17,9 +17,14 @@ This is a hello world starting point for using golang with an arduino
 * `platformio` [PlatformIO Core (CLI) install](http://docs.platformio.org/en/latest/installation.html)
 
 ### Install firmata on an arduino
+* connect arduino to host machine
+* determine its serial port
+  * *Nix `ls /dev/`
+  * Windows: check the `device manager`
 * `cd platformio`
 * compile: `platformio run -e uno`
-* burn to uno: `platformio run -e uno --target upload`
+* burn to uno: `platformio run -e uno --target upload --upload-port "/dev/ttyUSB0"`
+
 * See the below link if different firmata versions for different functions are desired
   * [Firmata Examples](https://platformio.org/lib/show/307/Firmata/examples)
 * over time operator may need to update the "platforms" that platformio supports
