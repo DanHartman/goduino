@@ -10,7 +10,8 @@ import (
 )
 
 func main() {
-	// environment variable assigns port for app to listen on
+	// environment variable sets which usb serial port
+	// the arduino board is using
 	port := os.Getenv("DEV_PORT")
 	if port == "" {
 		log.Fatal("Env Var DEV_PORT must be set")
